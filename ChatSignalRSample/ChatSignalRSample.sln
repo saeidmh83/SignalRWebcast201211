@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatSignalRSample", "ChatSignalRSample\ChatSignalRSample.csproj", "{67D81455-4F58-4925-8413-77F2041F458E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatConsoleClient", "ChatConsoleClient\ChatConsoleClient.csproj", "{A72F161F-6581-44F6-BEA1-B6BE198D4B00}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{67D81455-4F58-4925-8413-77F2041F458E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67D81455-4F58-4925-8413-77F2041F458E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67D81455-4F58-4925-8413-77F2041F458E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A72F161F-6581-44F6-BEA1-B6BE198D4B00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A72F161F-6581-44F6-BEA1-B6BE198D4B00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A72F161F-6581-44F6-BEA1-B6BE198D4B00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A72F161F-6581-44F6-BEA1-B6BE198D4B00}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

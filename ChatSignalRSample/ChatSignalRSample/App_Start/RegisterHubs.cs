@@ -25,7 +25,7 @@ namespace ChatSignalRSample
             string port = ConfigurationManager.AppSettings["redis.port"];
             string password = ConfigurationManager.AppSettings["redis.password"];
 
-            //GlobalHost.DependencyResolver.UseRedis(server, Int32.Parse(port), password, new[] { "ChatSignalRSample" });
+            GlobalHost.DependencyResolver.UseRedis(server, Int32.Parse(port), password, new[] { "ChatSignalRSample" });
         }
     }
 }
